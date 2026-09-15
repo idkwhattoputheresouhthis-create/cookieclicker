@@ -2080,7 +2080,6 @@ Game.Launch=function()
 		else Game.Loader.loaded=callback;
 		Game.Loader.Load(['filler.png']);
 	}
-	 // Do nothing
 	Game.timedout=false;
 	Game.Timeout=function()
 	{
